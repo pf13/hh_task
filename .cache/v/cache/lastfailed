@@ -1,0 +1,10 @@
+{
+  "test.py": true,
+  "test.py::TestClass::()::test_test": true,
+  "test.py::TestClassWoBullshit::()::test_1": true,
+  "test.py::TestHh::()::test_check_quantity_vacancies": true,
+  "test.py::TestHh::()::test_check_quantity_vacancies_in_region": true,
+  "test.py::TestHh::()::test_find_by_name_in_employerslist": true,
+  "test.py::TestYa::()::test_find_by_name_company": true,
+  "test.py::test_test": true
+}
