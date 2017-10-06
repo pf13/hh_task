@@ -38,6 +38,6 @@ class TestHh:
 			action.browser.find_element_by_css_selector(HhPage.vacancies_group_title_link).click()
 			jobs_list = action.browser.find_elements_by_css_selector(HhPage.vacancy_serp_vacancy_title)
 			qa_job = [job.text for job in jobs_list]
-			assert 'QA Automation Engineer (Server)' in qa_job
+			assert find_name_vacancy in qa_job
 		except Exception as e:
 			raise print('No QA vacancy in region')
